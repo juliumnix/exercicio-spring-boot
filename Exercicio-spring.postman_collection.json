@@ -1,0 +1,372 @@
+{
+	"info": {
+		"_postman_id": "bd720555-8b1f-406b-a149-0d1f0995f929",
+		"name": "Exercicio-spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12872349"
+	},
+	"item": [
+		{
+			"name": "post cliente",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"julio2\",\r\n    \"cpf\": \"1111cpf\",\r\n    \"cnpj\": \"2222cnpj\",\r\n    \"tipo_cliente\": \"especial\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/cliente",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get clientes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/cliente",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get cliente",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/cliente/102",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete cliente",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/cliente/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post produto",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"descricao\": \"descricao1\",\r\n   \"valor\": 1.0 \r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/produto/52",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produto",
+						"52"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get produtos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/produto",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get produto",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/produto/102",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produto",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete produto",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/produto/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produto",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post fornecedor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"nome\": \"fornecedor Julio\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/fornecedor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fornecedor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get fornecedores",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/fornecedor",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fornecedor"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get fornecedor",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/fornecedor/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fornecedor",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete fornecedor",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/fornecedor/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fornecedor",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post Venda",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"valor\": 50.0\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/venda/102/102",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"venda",
+						"102",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get vendas pelo id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/venda/102",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"venda",
+						"102"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
