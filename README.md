@@ -1,5 +1,7 @@
 ﻿# exercicio-spring-boot
 O exercicio em questão está presente na página 125 da apostila
+
+
 Caso necessário, o arquivo da Collection do Postman está no projeto
 
 Alguns pontos a ressaltar da implementação
